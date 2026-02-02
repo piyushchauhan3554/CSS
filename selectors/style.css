@@ -1,0 +1,74 @@
+/* universal selector */
+
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+
+a,
+span {
+  color: brown;
+  text-decoration: none;
+}
+body {
+  background-color: rgba(74, 1, 130, 0.247);
+}
+
+h1 {
+  color: blue;
+  background-color: orange;
+}
+
+#p-text {
+  background: yellow;
+}
+
+.items {
+  background-color: pink;
+  list-style-type: none;
+  text-align: center;
+  line-height: 2;
+  letter-spacing: 2px;
+}
+
+/* descendant selectors */
+/* parent child */
+
+div h4 {
+  background-color: rgb(203, 197, 187);
+}
+
+input[type] {
+  background-color: blue;
+}
+
+h1:hover {
+  background-color: yellow;
+}
+
+p:active {
+  background-color: black !important;
+  color: white;
+}
+
+.apple:nth-of-type(3n) {
+  background-color: rgb(89, 247, 5);
+}
+
+input[type="radio"]:checked + label {
+  font-weight: bolder;
+  color: red;
+}
+
+p::first-line {
+  color: orange;
+}
+
+h1::first-letter {
+  color: yellow;
+}
+
+p::selection {
+  background-color: black;
+  color: yellow;
+}
