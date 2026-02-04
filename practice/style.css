@@ -1,0 +1,11 @@
+div{
+  height: 200px;
+  width: 400px;
+  background-color: aqua;
+  margin: 0px auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-image: url("https://www.royalchallengers.com/PRRCB01/public/styles/1061x767_landscape/public/2021-08/Virat%20Kohli.jpg?itok=kVs5neyo");
+  background-size: cover;
+  box-shadow: 2px 2px 10px greenyellow;
+}

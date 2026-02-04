@@ -1,0 +1,43 @@
+div {
+  height: 100px;
+  width: 100px;
+  background-color: greenyellow;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 20px;
+}
+
+#static {
+  background-color: orange;
+  position: static;
+  left: 100px;
+  top: 100px;
+}
+
+#relative {
+  background-color: orange;
+  position: relative;
+  left: 40px;
+  top: 40px;
+}
+
+#absolute {
+  background-color: orange;
+  position: absolute;
+  left: 40px;
+  top: 40px;
+}
+
+#fixed {
+  background-color: orange;
+  position: fixed;
+  left: 500px;
+  top: 0px;
+}
+
+#sticky {
+  position: sticky;
+  background-color: orange;
+  top: 10px;
+}

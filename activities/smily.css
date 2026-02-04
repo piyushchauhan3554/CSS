@@ -1,0 +1,49 @@
+#circle {
+  background-color: rgb(243, 207, 48);
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  position: relative;
+  margin: 100px auto;
+  transition-duration: 4s;
+}
+#circle:hover{
+  box-shadow: 2px 2px 20px rgb(80, 80, 30);
+  cursor: pointer;
+  transform: rotate(360deg);
+}
+
+body{
+  background-color: rgb(81, 174, 232);
+}
+
+.eye {
+  background-color: black;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#left-eye {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+
+#right-eye {
+  position: absolute;
+  left: 200px;
+  top: 100px;
+}
+
+#mouth {
+  background-color: rgba(255, 0, 0, 1);
+  height: 70px;
+  width: 50%;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  position: absolute;
+  left: 90px;
+  top: 250px;
+}
